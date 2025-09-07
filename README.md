@@ -50,7 +50,7 @@ npm start
 - `/bytetrack`: ByteTrack multi-object tracker.
 - `/frontend`: React + TypeScript web dashboard.
 - `/weights`: Pretrained model weights (to be downloaded).
-- `/data`, `/layers`, `/networks`: Supporting modules, scripts & configs (dataset not released for privacy).
+- `/data`, `/layers`, `/networks`: Supporting modules, scripts & configs (Dataset not released for privacy).
 - `app.py`: FastAPI backend server.
 - `dai.py`: DAI low-light face detection model.
 - `main.py`: Complete pipeline, `main_lessdet.py`, `main_merge.py`: Batch video processing scripts - complete pipeline, reduced detection, and ID merge.
