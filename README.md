@@ -22,7 +22,7 @@ The project was developed for the [Computer Vision](https://techtree.iiitd.edu.i
 ```bash
 pip install fastapi uvicorn opencv-python torch torchvision numpy Pillow sqlite3 scipy python-multipart python-dotenv requests matplotlib scikit-learn
 ```
-- Download the pretrained weights listed below and place them in `weights` folder:
+- Download the pretrained weights listed below and place them in `/weights` folder:
   - adaface_ir101_ms1mv3.ckpt
   - adaface_ir101_webface12m.ckpt
   - DarkFaceFS.pth
@@ -44,7 +44,24 @@ npm start
     python main.py
     ```
   - Output videos will be saved with `_complete.mp4`, `_lessdet.mp4`, or `_merge.mp4` suffixes.
-  
 
+**<h4>📂 Folder Structure:</h4>**
+- `/adaface`: AdaFace identity recognition implementation.
+- `/bytetrack`: ByteTrack multi-object tracker.
+- `/frontend`: React + TypeScript web dashboard.
+- `/weights`: Pretrained model weights (to be downloaded).
+- `/data`, `/layers`, `/networks`: Supporting modules, scripts & configs (dataset not released for privacy).
+- `app.py`: FastAPI backend server.
+- `dai.py`: DAI low-light face detection model.
+- `main.py`: Complete pipeline, `main_lessdet.py`, `main_merge.py`: Batch video processing scripts - complete pipeline, reduced detection, and ID merge.
 
+**<h4>📊 Results:</h4>**
+- <b>Face Detection (DAI)</b> under low-light conditions: F1-score = <b>0.86</b>
+- <b>Face Recognition (AdaFace):</b> Accuracy = <b>87.5%</b>
+- <b>Pipeline Latency:</b> Optimized from ~2 min to <b>8.3s</b> for a 7s video (30 fps)
+
+**<h4>🧑‍🤝‍🧑 Other Contributors:</h4>**
+My IIIT Delhi batchmates Manan Aggarwal & Souparno Ghose also contributed in this project.
+
+📌 Important: Please make sure to follow the guidelines and policies outlined by the institution regarding the use of shared coursework materials. Use this repository responsibly and avoid any violations of academic integrity. Codes are provided for reference purposes only. It's recommended to understand the codes and implement them independently.
 
