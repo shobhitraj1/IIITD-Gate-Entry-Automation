@@ -70,7 +70,7 @@ npm start
 **<h4>🧑‍🤝‍🧑 Other Contributors:</h4>**
 My IIIT Delhi batchmates Manan Aggarwal & Souparno Ghose also contributed in this project.
 
-**<h4>🙏 Acknowledgements:</h4>**  
+**<h4>🙏 Acknowledgements:</h4>**
 We gratefully acknowledge the open-source repositories that formed the backbone of this project:  
 - [DAI: Boosting Object Detection with Zero-Shot Day-Night Domain Adaptation](https://github.com/ZPDu/DAI-Net)  
 - [AdaFace: Quality Adaptive Margin for Face Recognition](https://github.com/mk-minchul/AdaFace)  
