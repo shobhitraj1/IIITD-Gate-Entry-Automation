@@ -5,7 +5,7 @@ The project was developed for the [Computer Vision](https://techtree.iiitd.edu.i
 
 <div style="display: inline-block; text-align: center; margin-right: 20px;">
     <b><u>System Architecture Pipeline:</u></b> <br>
-    <img src="weights/pipeline.png" alt="pipeline" width="1000">
+    <img src="assets/pipeline.png" alt="pipeline" width="1000">
 </div>
 <br>
 
