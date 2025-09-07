@@ -7,6 +7,12 @@ The project was developed for the [Computer Vision](https://techtree.iiitd.edu.i
     <b><u>System Architecture Pipeline:</u></b> <br>
     <img src="assets/pipeline.png" alt="pipeline" width="1000">
 </div>
+<br><br>
+
+<div style="display: inline-block; text-align: center; margin-right: 20px;">
+    <b><u>Application Frontend Dashboard:</u></b> <br>
+    <img src="assets/frontend-app.jpg" alt="pipeline" width="1000">
+</div>
 <br>
 
 **<h4>🛠️ Features:</h4>**
