@@ -3,6 +3,12 @@
 This repository presents a computer vision system developed to automate student gate entry at IIIT Delhi after 10 PM, designed to handle low-light conditions and real-world surveillance settings. The project integrates face detection, recognition, and temporal tracking from CCTV footage to log student entries seamlessly into an online database.
 The project was developed for the [Computer Vision](https://techtree.iiitd.edu.in/viewDescription/filename?=CSE344) course at IIIT Delhi in Winter 2025.
 
+<div style="display: inline-block; text-align: center; margin-right: 20px;">
+    <b><u>System Architecture Pipeline:</u></b> <br>
+    <img src="weights/pipeline.png" alt="pipeline" width="1000">
+</div>
+<br>
+
 **<h4>🛠️ Features:</h4>**
 - **Low-Light Face Detection:** DAI detector for robust face bounding box localization under challenging illumination.
 - **Face Recognition Backbone:** MTCNN for alignment + AdaFace (quality-adaptive margin) for identity prediction.
